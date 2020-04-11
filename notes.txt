@@ -1,0 +1,4 @@
+primaryColor: darkblue
+accentColor: yellow
+highlightColor: black / white
+backgroundColor: white / black
