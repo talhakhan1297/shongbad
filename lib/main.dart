@@ -1,29 +1,40 @@
 import 'package:flutter/material.dart';
+import 'package:shongbad/screens/selectLanguage.dart';
+import 'package:shongbad/screens/signIn.dart';
+import 'package:shongbad/screens/homeScreen.dart';
+import 'package:shongbad/screens/signUp.dart';
+import 'package:shongbad/style/theme.dart';
 
 void main() {
   runApp(MyApp());
 }
 
-class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
+class MyApp extends StatefulWidget {
+  @override
+  _MyAppState createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
+  final pageController = PageController(keepPage: false);
+  final List<Widget> pages = [SelectLanguage(), SignIn()];
+
+  @override
+  void initState() {
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: MyHomePage(),
+      debugShowCheckedModeBanner: false,
+      theme: buildLightTheme(context),
+      initialRoute: '/',
+      routes: {
+        '/': (context) => SelectLanguage(),
+        '/signIn': (context) => SignIn(),
+        '/signUp': (context) => SignUp(),
+        '/homeScreen': (context) => HomeScreen()
+      },
     );
-  }
-}
-
-class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key}) : super(key: key);
-
-  @override
-  _MyHomePageState createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(appBar: AppBar(), body: Container());
   }
 }

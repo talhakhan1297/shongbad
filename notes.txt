@@ -2,3 +2,21 @@ primaryColor: darkblue
 accentColor: yellow
 highlightColor: black / white
 backgroundColor: white / black
+
+
+All copywiths using above variables
+
+18, sbold, blak (appbar)(cpy with white for main news screen save pref)
+
+16, sbold, darkblu (nam/em/um/pas)(cpy with white for save pref btn)(cpy with black for categ, st))
+16, med, black (60 list of opts)(cpy with white for signin btn) 
+16, reg, black (75 lang txt)(cw dkbl unselected button)(cw white selected button)
+
+14, med, wht (75% guide)(new head)
+14, reg, darkblue (signup?)
+14, light, yellow (lang chg)
+
+12, med, blk (50 username,pass)(75 cat labels)
+12, light, white (save pref sub)(80 news detail)(cpy wt darkblue75 lang swipeup)
+
+8, reg, wht (50 date, views, ws)
