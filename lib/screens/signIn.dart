@@ -98,6 +98,7 @@ class _SignInState extends State<SignIn> {
             FocusScope.of(context).unfocus();
           },
           child: Scaffold(
+            backgroundColor: _theme.backgroundColor,
             body: Form(
               key: _formKey,
               child: SingleChildScrollView(

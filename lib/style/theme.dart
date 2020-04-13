@@ -122,7 +122,7 @@ ThemeData buildDarkTheme(BuildContext context) {
       ),
       bodyText1: GoogleFonts.poppins(
         fontSize: 12,
-        color: kWhite,
+        color: kBlack,
         fontWeight: FontWeight.w300,
       ),
       bodyText2: GoogleFonts.poppins(

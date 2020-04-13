@@ -50,7 +50,24 @@ flutter:
     - assets/icons/google.svg
     - assets/icons/facebook.svg
     - assets/icons/twitter.svg
-  #   - images/a_dot_ham.jpeg
+    - assets/icons/language.svg
+    - assets/icons/hd.svg
+    - assets/icons/nights_stay.svg
+    - assets/icons/notifications.svg
+    - assets/icons/play_arrow.svg
+    - assets/icons/allNews.svg
+    - assets/icons/myFeed.svg
+    - assets/icons/topStories.svg
+    - assets/icons/business.svg
+    - assets/icons/politics.svg
+    - assets/icons/sports.svg
+    - assets/icons/tech.svg
+    - assets/icons/entertainment.svg
+    - assets/icons/international.svg
+    - assets/icons/automobile.svg
+    - assets/icons/science.svg
+    - assets/icons/travel.svg
+    - assets/icons/trending.svg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
   # For details regarding adding assets from package dependencies, see

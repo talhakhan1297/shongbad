@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:shongbad/screens/discover.dart';
+import 'package:shongbad/screens/options.dart';
 import 'package:shongbad/screens/selectLanguage.dart';
 import 'package:shongbad/screens/signIn.dart';
 import 'package:shongbad/screens/homeScreen.dart';
@@ -28,12 +30,14 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: buildLightTheme(context),
-      initialRoute: '/',
+      initialRoute: '/discover',
       routes: {
         '/': (context) => SelectLanguage(),
         '/signIn': (context) => SignIn(),
         '/signUp': (context) => SignUp(),
-        '/homeScreen': (context) => HomeScreen()
+        '/homeScreen': (context) => HomeScreen(),
+        '/options': (context) => Options(),
+        '/discover': (context) => Discover(),
       },
     );
   }

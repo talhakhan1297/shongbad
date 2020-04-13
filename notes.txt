@@ -20,3 +20,10 @@ All copywiths using above variables
 12, light, white (save pref sub)(80 news detail)(cpy wt darkblue75 lang swipeup)
 
 8, reg, wht (50 date, views, ws)
+
+
+change lang
+dark mode 
+dark mode logo
+remember lang
+remember dark/light mode

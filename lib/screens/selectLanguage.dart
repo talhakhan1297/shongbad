@@ -32,6 +32,7 @@ class _SelectLanguageState extends State<SelectLanguage> {
       },
       child: SafeArea(
         child: Scaffold(
+          backgroundColor: _theme.backgroundColor,
           body: Center(
             child: Column(
               children: <Widget>[
