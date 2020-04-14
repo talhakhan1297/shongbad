@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:shongbad/elements/button.dart';
-import 'package:shongbad/screens/signIn.dart';
 import 'package:shongbad/style/theme.dart';
 
 class SignUp extends StatefulWidget {

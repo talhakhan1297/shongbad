@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:shongbad/screens/discover.dart';
+import 'package:shongbad/elements/kPageView.dart';
 import 'package:shongbad/screens/options.dart';
 import 'package:shongbad/screens/selectLanguage.dart';
 import 'package:shongbad/screens/signIn.dart';
-import 'package:shongbad/screens/homeScreen.dart';
 import 'package:shongbad/screens/signUp.dart';
 import 'package:shongbad/style/theme.dart';
+
+bool darkmode = false;
 
 void main() {
   runApp(MyApp());
@@ -29,15 +30,16 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: buildLightTheme(context),
-      initialRoute: '/discover',
+      theme: !darkmode ? buildLightTheme(context) : buildDarkTheme(context),
+      initialRoute: '/',
       routes: {
         '/': (context) => SelectLanguage(),
         '/signIn': (context) => SignIn(),
         '/signUp': (context) => SignUp(),
-        '/homeScreen': (context) => HomeScreen(),
+        // '/homeScreen': (context) => HomeScreen(),
         '/options': (context) => Options(),
-        '/discover': (context) => Discover(),
+        // '/discover': (context) => Discover(),
+        '/kPageView': (context) => KPageView(),
       },
     );
   }

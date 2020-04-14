@@ -75,7 +75,7 @@ class _SignInState extends State<SignIn> {
     if (form.validate()) {
       form.save();
       // print('Email: $_email, Password: $_password');
-      Navigator.pushReplacementNamed(context, '/homeScreen');
+      Navigator.pushReplacementNamed(context, '/kPageView');
     }
     FocusScope.of(context).unfocus();
   }
@@ -89,7 +89,7 @@ class _SignInState extends State<SignIn> {
       direction: DismissDirection.up,
       onDismissed: (direction) {
         if (direction == DismissDirection.up) {
-          Navigator.of(context).pushReplacementNamed('/homeScreen');
+          Navigator.of(context).pushReplacementNamed('/kPageView');
         }
       },
       child: SafeArea(

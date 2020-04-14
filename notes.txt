@@ -24,6 +24,8 @@ All copywiths using above variables
 
 change lang
 dark mode 
-dark mode logo
 remember lang
 remember dark/light mode
+remember guidlines
+
+material route

@@ -3,7 +3,8 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:shongbad/style/theme.dart';
 
 class Discover extends StatelessWidget {
-  const Discover({Key key}) : super(key: key);
+  final PageController pageViewController;
+  const Discover(this.pageViewController, {Key key}) : super(key: key);
 
   static const List<List<String>> _categoryItems = [
     ["My Feed", "assets/icons/myFeed.svg"],
@@ -190,7 +191,7 @@ class Discover extends StatelessWidget {
               color: _theme.highlightColor,
             ),
             onPressed: () {
-              Navigator.pushNamed(context, 'options');
+              Navigator.pushNamed(context, '/options');
             },
           ),
           actions: <Widget>[
@@ -199,7 +200,11 @@ class Discover extends StatelessWidget {
                 Icons.arrow_forward_ios,
                 color: _theme.highlightColor,
               ),
-              onPressed: () {},
+              onPressed: () {
+                pageViewController.animateToPage(1,
+                    duration: Duration(milliseconds: 500),
+                    curve: Curves.linear);
+              },
             ),
           ],
         ),
