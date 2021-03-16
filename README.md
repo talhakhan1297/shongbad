@@ -1,16 +1,19 @@
-# shongbad
+# Shongbad
 
-A new Flutter project.
+A News App built with Flutter.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src='shongbad (2)' width='350'>
+<img src='shongbad (3)' width='350'>
+<img src='shongbad (4)' width='350'>
+<img src='shongbad (5)' width='350'>
+<img src='shongbad (12)' width='350'>
+<img src='shongbad (14)' width='350'>
+<img src='shongbad (15)' width='350'>
+<img src='shongbad (16)' width='350'>
+<img src='shongbad (7)' width='350'>
+<img src='shongbad (8)' width='350'>
+<img src='shongbad (13)' width='350'>
+<img src='shongbad (1)' width='350'>
+<img src='shongbad (10)' width='350'>
+<img src='shongbad (6)' width='350'>
+<img src='shongbad (9)' width='350'>
