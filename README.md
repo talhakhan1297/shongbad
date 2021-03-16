@@ -2,18 +2,28 @@
 
 A News App built with Flutter.
 
-<img src='shongbad (2).png' width='200'>
-<img src='shongbad (3).png' width='200'>
-<img src='shongbad (4).png' width='200'>
-<img src='shongbad (5).png' width='200'>
-<img src='shongbad (12).png' width='200'>
-<img src='shongbad (14).png' width='200'>
-<img src='shongbad (15).png' width='200'>
-<img src='shongbad (16).png' width='200'>
-<img src='shongbad (7).png' width='200'>
-<img src='shongbad (8).png' width='200'>
-<img src='shongbad (13).png' width='200'>
-<img src='shongbad (1).png' width='200'>
-<img src='shongbad (10).png' width='200'>
-<img src='shongbad (6).png' width='200'>
-<img src='shongbad (9).png' width='200'>
+<p float="left">
+  <img src='shongbad1.png' width='200'>
+  <img src='shongbad2.png' width='200'>
+  <img src='shongbad3.png' width='200'>
+  <img src='shongbad4.png' width='200'>
+</p>
+
+<p float="left">
+  <img src='shongbad5.png' width='200'>
+  <img src='shongbad6.png' width='200'>
+  <img src='shongbad7.png' width='200'>
+  <img src='shongbad8.png' width='200'>
+</p>
+
+<p float="left">
+  <img src='shongbad9.png' width='200'>
+  <img src='shongbad10.png' width='200'>
+  <img src='shongbad11.png' width='200'>
+  <img src='shongbad12.png' width='200'>
+</p>
+
+<p float="left">
+  <img src='shongbad13.png' width='200'>
+  <img src='shongbad14.png' width='200'>
+</p>
